@@ -93,6 +93,12 @@ function getDbData() {
       description: 'Bag of 7 fresh McIntosh apples',
       quantity: 1,
     },
+    {
+      id: 40,
+      name: 'Lasagnas',
+      description: 'Simply the best food in the world',
+      quantity: 28,
+    },
   ];
   return { products } as Db;
 }
